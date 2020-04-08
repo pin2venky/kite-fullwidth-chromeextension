@@ -2,12 +2,12 @@
 function toggle(){
 	
 var btn = document.getElementById("toggleBtn");
-if(btn.innerHTML == 'Hide'){
-	btn.innerHTML = "UnHide";
+if(btn.innerHTML == 'UnHide'){
+	btn.innerHTML = "Hide";
 	document.getElementsByClassName("container-left")[0].style.display="block";
 }
 else{
-	btn.innerHTML = "Hide";
+	btn.innerHTML = "UnHide";
 	document.getElementsByClassName("container-left")[0].style.display="none";
 }
 }
