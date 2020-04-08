@@ -1,0 +1,19 @@
+{
+   "author": "Venkatesh Ankarapu [venky.pin2@gmail.com]",
+   "content_scripts": [ {
+      "css": [ "kite3-full-width.css" ],
+      "matches": [ "https://kite3.zerodha.com/*", "https://kite.zerodha.com/*" ],
+	  "js": ["script.js"]      
+   } ],
+   "description": "This app will give zerodha kite trading platform a full width look with also some minor twicks.",
+   "homepage_url": "https://github.com/sanampatel/kite-zerodha-style",
+   "icons": {
+      "128": "kite128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAh9wBGM0kemouqxiYRo02XojKvFONr3a47Aofik6MhmpbdFYVQ8PaqGgxbGygQH6vSBidYtNSpD8sqw9Ztn27GXcYcosyLrHFCTwmcWDaxHNj35lPVe1I3gKzRSCNATNiAr30zI9RHlfscRaygJKDloxjS20WDT6giRcHq3B8/daylxXW45HByCF1f4dz6bjETnfDsTZ57FpyypQAEHKzhYeOYO5wR8gBCOb8Ae/ZO8ex16RpvEp3GzuqlZ++/ZwFtdoLYmA9xaYo32o/ttWpOX0qT3XG6onlM35Pe9NvpSsmTOFiX/ITegadA2vIMjK/l4oK1kRgLNij5VgcIdhdDwIDAQAB",
+   "manifest_version": 2,
+   "name": "Full Width Zerodha Kite Trading Platform-Venky",
+   "short_name": "Full Width Zerodha Kite Trading Plateform-Venky",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.2"
+}
